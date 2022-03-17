@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+.container{
+    height: 100vh;
+    display: flex;
+}
+  
+.first {
+    width: 60%;
+}
+
+.second {
+    width: 40%;
+    background-color: rgb(252, 79, 226);
+}
+
+.box1 {
+    height: 40%;
+    background-color: rgb(0, 255, 234);
+}
+
+.box2 {
+    height: 40%;
+    background-color: rgb(30, 255, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+.box3 {
+    height: 20%;
+    background-color: rgb(24, 230, 34);
+}
+
+.box2_1 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 0, 64);
+}
+
+.box2_2 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(76, 0, 255);
+}
+
+.box2_3 {
+    width: 50%; 
+    height: 100%;
+    background-color: rgb(179, 255, 0);
+}
